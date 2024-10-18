@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframe</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela {
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça sua escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, aliquam! Soluta modi autem nisi, maxime voluptatem quas ad eveniet illum vel provident, repellat dolorem ea consequuntur? Ut magni velit ducimus.</p>
+    <ul>
+        <li><a href="paginas extras/pagina001.html" target="frame">Primeira página</a></li>
+        <li><a href="paginas extras/pagina002.html" target="frame">Segunda página</a></li>
+        <li><a href="paginas extras/pagina003.html" target="frame">Terceira página</a></li>
+    </ul>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, doloremque? Quis facere laborum eos molestiae, optio quaerat saepe unde! Mollitia, accusamus iusto hic illo labore aliquam ut corporis! Placeat, ea. Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores repellat fuga rerum, aliquid recusandae magnam ut delectus autem perspiciatis assumenda maxime voluptas quod ipsum labore sit, nostrum perferendis doloribus sapiente.</p>
+
+    <iframe id="tela" name="frame" srcdoc="<h1>Escolha uma dar opções acima</h1>">
+        <p>Infelizmente seu navegador não é compatível com isso </p>
+    </iframe>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, eligendi maiores nihil ipsam consectetur doloribus rerum architecto optio voluptatum iste cum voluptatibus quisquam! Dolore veniam sed eum, molestiae nemo a? Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quisquam voluptatibus at ut vel. Dolor tempora eligendi possimus harum, fugiat temporibus voluptatum qui laborum, reiciendis repellat cum! Fugiat, earum cupiditate!</p>
+</body>
+</html>
